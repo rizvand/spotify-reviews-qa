@@ -40,4 +40,7 @@
 
 # Screenshot & Demo
 ![1708682845030](image/README/1708682845030.png)
-![](image/README/demo_spotify_qa.mov)
+
+https://github.com/rizvand/spotify-reviews-qa/assets/52346702/74a687ab-2fa2-4e0a-ad95-f5bed798c96c
+
+
