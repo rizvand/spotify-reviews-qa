@@ -29,3 +29,8 @@
    streamlit run streamlit_app.py --server.port 8501
    ```
 4. Open up your browser and access the chatbot on `http://localhost:8501`
+
+
+# Screenshot & Demo
+
+![1708682845030](image/README/1708682845030.png)

@@ -51,7 +51,7 @@ if prompt := st.chat_input(disabled=is_chat_disabled):
         st.write(prompt)
 
 # Generate a new response if last message is not from assistant
-if st.session_state.messages[-1]["role"] == "user":
+if st.session_state.messages[-1]["role"] != "assistant":
     with st.chat_message("assistant"):
         with st.spinner("Generating Answer..."):
             is_chat_disabled = True
@@ -65,6 +65,3 @@ if st.session_state.messages[-1]["role"] == "user":
 
     with st.chat_message("log"):
         st.markdown(f"Source Documents: \n\n`{references}`")
-
-    message = {"role": "log", "content": references}
-    st.session_state.messages.append(message)
