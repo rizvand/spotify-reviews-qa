@@ -30,7 +30,7 @@
    ```
    pip install -r requirements.txt
    ```
-3. Go to `spotify-reviews-qa/playgrounds` directory, and start Streamlit app
+3. Go to `spotify-reviews-qa/playground` directory, and start Streamlit app
 
    ```
    streamlit run streamlit_app.py --server.port 8501
