@@ -9,10 +9,17 @@
 ## Run Local LLama2 Model
 
 1. Make sure you have Docker installed on your machine
-2. Run container
+2. Open up a terminal and run docker container
 
    ```
    docker run -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
+   ```
+
+3. Open up a terminal and pull Llama2 latest model
+   ```
+   curl http://localhost:11434/api/pull -d '{
+     "name": "llama2"
+   }'
    ```
 
 ## Run Spotify Reviews QA Chatbot
@@ -32,5 +39,5 @@
 
 
 # Screenshot & Demo
-
 ![1708682845030](image/README/1708682845030.png)
+![](image/README/demo_spotify_qa.mov)
